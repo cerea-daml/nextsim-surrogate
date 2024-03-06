@@ -1,0 +1,17 @@
+name: nextsim_surrogate
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - cmocean
+    - matplotlib
+    - netcdf4
+    - numpy
+    - pytest
+    - pyyaml
+    - scipy
+    - xarray
+    - tqdm
+    - functools
+    - tensorflow
